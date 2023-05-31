@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Responsive | Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav_bar">
+            <a href="" class="logo">nature</a>
+            <div class="navigation">
+                <div class="nav_items">
+                    <i class="uil uil-times nav_close_btn"></i>
+                    <a href="#"><i class="uil uil-home"></i>Home</a>
+                    <a href="#explore"><i class="uil uil-compass"></i>Explore</a>
+                    <a href="#"><i class="uil uil-info-circle"></i>About</a>
+                    <a href="#"><i class="uil uil-document-layout-left"></i>Blog</a>
+                    <a href="#"><i class="uil uil-envelope"></i>Contact</a>
+                </div>
+            </div>
+            <i class="uil uil-apps nav_menu_btn"></i>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="media_icons">
+            <a href="#"><i class="uil uil-twitter"></i></a>
+            <a href="#"><i class="uil uil-instagram"></i></a>
+            <a href="#"><i class="uil uil-github"></i></a>
+        </div>
+        <div class="swiper bg_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="image/forest.jpg" alt="">
+                    <div class="text_content">
+                        <h2 class="title">Plant <span>Season</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vero velit nesciunt
+                            pariatur dolorum tempora voluptate, reprehenderit voluptatibus eligendi saepe ut, omnis sint
+                            sapiente illum! Repellendus aperiam, dolorum delectus minima laborum id error optio
+                            consequuntur atque?
+                        </p>
+                        <button class="read_btn">Read More <i class="uil uil-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="swiper-slide dark_layer">
+                    <img src="image/nature.jpg" alt="">
+                    <div class="text_content">
+                        <h2 class="title">Sunrise <span>Forest</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vero velit nesciunt
+                            pariatur dolorum tempora voluptate, reprehenderit voluptatibus eligendi saepe ut, omnis sint
+                            sapiente illum! Repellendus aperiam, dolorum delectus minima laborum id error optio
+                            consequuntur atque?
+                        </p>
+                        <button class="read_btn">Read More <i class="uil uil-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/lighting.jpg" alt="">
+                    <div class="text_content">
+                        <h2 class="title">Lightning <span>Purple</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vero velit nesciunt
+                            pariatur dolorum tempora voluptate, reprehenderit voluptatibus eligendi saepe ut, omnis sint
+                            sapiente illum! Repellendus aperiam, dolorum delectus minima laborum id error optio
+                            consequuntur atque?
+                        </p>
+                        <button class="read_btn">Read More <i class="uil uil-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="swiper-slide dark_layer">
+                    <img src="image/ocean.jpg" alt="">
+                    <div class="text_content">
+                        <h2 class="title">Ocean <span>Sunset</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vero velit nesciunt
+                            pariatur dolorum tempora voluptate, reprehenderit voluptatibus eligendi saepe ut, omnis sint
+                            sapiente illum! Repellendus aperiam, dolorum delectus minima laborum id error optio
+                            consequuntur atque?
+                        </p>
+                        <button class="read_btn">Read More <i class="uil uil-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg_slider_thumbs">
+            <div class="swiper-wrapper thumbs_container">
+                <img src="image/forest.jpg" class="swiper-slide">
+                <img src="image/nature.jpg" class="swiper-slide">
+                <img src="image/lighting.jpg" class="swiper-slide">
+                <img src="image/ocean.jpg" class="swiper-slide">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="about" id="explore">
+        <div class="details">
+            <h2>Explore</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, vel quidem. Unde, temporibus incidunt
+                repellendus eligendi minus magni quisquam quae et, deleniti ea nemo aliquam. Accusamus ipsa harum,
+                molestiae dignissimos tempore unde. Culpa in illum, saepe eos ab quae aut.
+            </p>
+        </div>
+        <div class="image_gallery">
+            <div class="image_card">
+                <img src="image/grid1.jpg" data-aos="fade-up" data-aos-delay="100">
+            </div>
+            <div class="image_card">
+                <img src="image/grid2.jpg" data-aos="fade-up" data-aos-delay="400">
+            </div>
+            <div class="image_card">
+                <img src="image/grid3.jpg" data-aos="fade-up" data-aos-delay="700">
+            </div>
+            <div class="image_card">
+                <img src="image/grid4.jpg" data-aos="fade-up" data-aos-delay="1000">
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="javascript/swiper-bundle.min.js"></script>
+    <script src="javascript/logika.js"></script>
+</body>
+
+</html>
